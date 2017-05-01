@@ -1,0 +1,72 @@
+{
+  "path": "",
+  "value": {
+    "id": 0,
+    "name": "PSDrive",
+    "type": "Tfs"
+  },
+  "children": [
+    {
+      "path": "jhorvath",
+      "value": {
+        "id": 1,
+        "name": "jhorvath",
+        "type": "TfsProjectCollection"
+      },
+      "children": [
+        {
+          "path": "Playground",
+          "value": {
+            "id": 11,
+            "name": "Playground",
+            "type": "TfsProject"
+          },
+          "children": [
+            {
+              "path": "Builds",
+              "value": {
+                "id": 111,
+                "name": "Builds",
+                "type": "TfsBuild"
+              }
+            },
+            {
+              "path": "BuildDefinitions",
+              "value": {
+                "id": 112,
+                "name": "BuildDefinitions",
+                "type": "TfsBuildDefinition"
+              }
+            }
+          ]
+        },
+        {
+          "path": "ServiceAssistent",
+          "value": {
+            "id": 12,
+            "name": "ServiceAssistent",
+            "type": "TfsProject"
+          },
+          "children": [
+            {
+              "path": "Builds",
+              "value": {
+                "id": 121,
+                "name": "Builds",
+                "type": "TfsBuild"
+              }
+            },
+            {
+              "path": "BuildDefinitions",
+              "value": {
+                "id": 122,
+                "name": "BuildDefinitions",
+                "type": "TfsBuildDefinition"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
